@@ -1,4 +1,37 @@
 h1 {
-color: blue;
+    color: blue;
+
+}
+
+body {
+
+background-color: black;
+
+
+}
+
+.container {
+
+    background-color: azure;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    width: 20%;
+    height: 5%;
+    
+    
+
+}
+
+.chrisImg{
+position: relative;
+width: 400px;
+height: 80%;
+border-radius: 80%;
 
 }
