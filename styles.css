@@ -1,0 +1,139 @@
+:root{
+    background-color: #cfcbcbc7;
+ }
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainContent{
+    display: flex;
+    justify-content: space-around; 
+    position:relative;
+    top: 5vw;
+    left: 20vw;
+    width: 60vw;
+    height: 20vw;
+}
+
+
+table{
+    position: absolute;
+    top:200px;
+    right:150px; 
+    }
+
+section{
+    width: 60%;
+    
+
+}
+
+
+
+section p{
+    max-width: 55%;
+    font-size: large;
+}
+
+header img {
+    position:relative;
+    top: 0vw;
+    left: 25vw;
+    width: 50vw;
+    height: 25vw;
+}
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    & a {
+        min-width: 80px 0px 0px 0px;
+        margin: 40px;
+        padding: 15px;
+        border:2.5px, solid, black ;
+        border-radius: 50px;
+        font-weight: bolder;
+        color: white;
+        background-color: rgb(118, 131, 169);
+        text-decoration: none;
+        }
+
+        & a:hover{
+            background-color: rgb(233, 236, 245);
+        }
+}
+
+form{
+     position: absolute;
+    top:250px;
+    right: 0px;
+    bottom: 0px;
+    left: 400px;
+    background-image: url(images/contact-us.jpg);
+    width: 50%;
+    height: 40%;
+   
+
+    & .formFields{
+        position: relative;
+        top:8vh;
+        left:12vw;
+        width:325px;
+
+        & label{
+            color: rgb(250, 245, 245);
+            font-weight: bolder;
+            
+
+        }
+        
+    }
+
+   
+}
+
+table{
+    border: 1px solid black;
+    width:20%;
+    right:2%;
+
+    & th{
+        border: 1px solid black;
+
+    }
+
+    & td{
+        border: 1px solid black;
+
+
+    }
+
+}
+.moreOhio{
+    position:relative;
+    left:53vw;
+    width:40%;
+    bottom:60%;
+    border: 1px solid black;
+
+}
+.missionStatement{
+    float: left;
+}
+
+footer{
+    position: absolute;
+    bottom: 10%;
+    width:250px;
+}
+
