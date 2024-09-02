@@ -34,7 +34,7 @@ section{
 
 
 section p{
-    max-width: 55%;
+    max-width: 53%;
     font-size: large;
 }
 
@@ -135,5 +135,9 @@ footer{
     position: absolute;
     bottom: 10%;
     width:250px;
+}
+
+span{
+    
 }
 
